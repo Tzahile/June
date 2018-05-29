@@ -44,5 +44,5 @@ $(document).ready(() => {
     }
   });
 
-  $('#secStage').click(() => { window.location = '#'; });
+  $('#secStage').click(() => { window.location.href += 'bin/lib/tmp/secLv.html'; });
 });
