@@ -1,1 +1,48 @@
-var _0xcb68=["\x76\x61\x6C","\x23\x69\x6E\x70\x75\x74","\x63\x6F\x6C\x6F\x72","\x63\x73\x73","\x61\x6E\x69\x6D\x61\x74\x65\x64\x20\x70\x75\x6C\x73\x65","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73","\x23\x63\x6F\x64\x65\x46\x69\x65\x6C\x64","","\x66\x6F\x63\x75\x73\x6F\x75\x74","\x23\x30\x30\x30\x30\x30\x30","\x63\x6C\x69\x63\x6B","\x61\x64\x64\x43\x6C\x61\x73\x73","\x66\x6F\x63\x75\x73","\x6B\x65\x79\x75\x70","\x54\x7A\x61\x68\x69\x3C\x33\x53\x61\x73\x68\x61","\x61\x70\x70\x65\x6E\x64","\x66\x6E","\x74\x72\x69\x67\x67\x65\x72","\x61\x70\x70\x6C\x79","\x31","\x61\x6E\x69\x6D\x61\x74\x65","\x23\x73\x65\x63\x53\x74\x61\x67\x65","\x62\x69\x6E\x64","\x23\x66\x75\x74\x75\x72\x65\x42\x75\x74\x74\x6F\x6E","\x3C\x69\x6E\x70\x75\x74\x20\x74\x79\x70\x65\x3D\x22\x62\x75\x74\x74\x6F\x6E\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x74\x6E\x20\x62\x74\x6E\x2D\x70\x72\x69\x6D\x61\x72\x79\x20\x62\x74\x6E\x2D\x6C\x67\x22\x20\x76\x61\x6C\x75\x65\x3D\x22\x57\x61\x79\x20\x54\x6F\x20\x47\x6F\x21\x22\x20\x69\x64\x3D\x22\x73\x65\x63\x53\x74\x61\x67\x65\x22\x20\x2F\x3E","\x30","\x72\x65\x6D\x6F\x76\x65","\x6F\x6E","\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x62\x69\x6E\x2F\x6C\x69\x62\x2F\x74\x6D\x70\x2F\x73\x65\x63\x4C\x76\x2E\x68\x74\x6D\x6C","\x72\x65\x61\x64\x79"];$(document)[_0xcb68[31]](()=>{const _0x173ex1=$(_0xcb68[1])[_0xcb68[0]]();const _0x173ex2=$(_0xcb68[1])[_0xcb68[3]](_0xcb68[2]);let _0x173ex3=false;$(_0xcb68[1])[_0xcb68[12]](()=>{$(_0xcb68[6])[_0xcb68[11]](_0xcb68[4])})[_0xcb68[10]](()=>{if($(_0xcb68[1])[_0xcb68[0]]()=== _0x173ex1){$(_0xcb68[1])[_0xcb68[0]](_0xcb68[7])[_0xcb68[3]](_0xcb68[2],_0xcb68[9])}})[_0xcb68[8]](()=>{$(_0xcb68[6])[_0xcb68[5]](_0xcb68[4]);if($(_0xcb68[1])[_0xcb68[0]]()=== _0xcb68[7]){$(_0xcb68[1])[_0xcb68[0]](_0x173ex1)[_0xcb68[3]](_0xcb68[2],_0x173ex2)}});$(_0xcb68[1])[_0xcb68[27]](_0xcb68[13],()=>{if($(_0xcb68[1])[_0xcb68[0]]()=== _0xcb68[14]&&  !_0x173ex3){(function(_0x173ex4){const _0x173ex5=_0x173ex4[_0xcb68[16]][_0xcb68[15]];_0x173ex4[_0xcb68[16]][_0xcb68[15]]= function(){return _0x173ex5[_0xcb68[18]](this,arguments)[_0xcb68[17]](_0xcb68[15])}}(jQuery));$(_0xcb68[23])[_0xcb68[22]](_0xcb68[15],()=>{$(_0xcb68[21])[_0xcb68[20]]({opacity:_0xcb68[19]})});$(_0xcb68[23])[_0xcb68[15]](_0xcb68[24]);_0x173ex3= true}else {if(_0x173ex3&& $(_0xcb68[1])[_0xcb68[0]]()!== _0xcb68[14]){$(_0xcb68[21])[_0xcb68[20]]({opacity:_0xcb68[25]},250,()=>{$(_0xcb68[21])[_0xcb68[26]]()});_0x173ex3= false}}});$(_0xcb68[21])[_0xcb68[10]](()=>{window[_0xcb68[29]][_0xcb68[28]]+= _0xcb68[30]})})
+$(document).ready(() => {
+  const inputValue = $('#input').val();
+  const inputColor = $('#input').css('color');
+  let shown = false;
+
+  $('#input').focus(() => {
+    $('#codeField').addClass('animated pulse');
+  })
+    .click(() => {
+      if ($('#input').val() === inputValue) {
+        $('#input').val('').css('color', '#000000');
+      }
+    })
+    .focusout(() => {
+      $('#codeField').removeClass('animated pulse');
+      if ($('#input').val() === '') {
+        $('#input').val(inputValue).css('color', inputColor);
+      }
+    });
+
+
+  $('#input').on('keyup', () => {
+    if ($('#input').val() === 'Tzahi<3Sasha' && !shown) {
+      (function ($) {
+        const origAppend = $.fn.append;
+
+        $.fn.append = function () {
+          return origAppend.apply(this, arguments).trigger('append');
+        };
+      }(jQuery));
+
+      $('#futureButton').bind('append', () => {
+        $('#secStage').animate({
+          opacity: '1',
+        });
+      });
+      $('#futureButton').append('<input type="button" class="btn btn-primary btn-lg" value="Way To Go!" id="secStage" />');
+      shown = true;
+    } else if (shown && $('#input').val() !== 'Tzahi<3Sasha') {
+      $('#secStage').animate({ opacity: '0' }, 250, () => {
+        $('#secStage').remove();
+      });
+      shown = false;
+    }
+  });
+
+  $('#secStage').click(() => { window.location.href += "bin/lib/tmp/secLv.html"; });
+});
