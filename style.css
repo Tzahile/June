@@ -1,0 +1,30 @@
+/*.head {
+    
+}*/
+
+body {
+    background-color: hsl(235, 70%, 10%);*/
+}
+#secStage {
+    margin-left: 28%;
+    opacity: 0;
+}
+
+.middle {
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+}
+
+#input {
+    color: #666666;
+}
+#futureButton {
+    margin-top: 10%;
+}
+.foot {
+    float: right;
+    margin-top: 45%;
+}

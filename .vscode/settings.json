@@ -1,0 +1,26 @@
+{
+    "eslint.autoFixOnSave": true,
+    "eslint.run": "onSave",
+    "html.format.endWithNewline": true,
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json"
+            ],
+            "filename": [
+                ".eslintrc",
+                ".jshintrc",
+                ".jsbeautify"
+            ]
+        },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html"
+        ]
+    }
+}
