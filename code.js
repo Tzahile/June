@@ -43,6 +43,7 @@ $(document).ready(() => {
       shown = false;
     }
   });
-
-  $('#secStage').click(() => { window.location.href += 'bin/lib/tmp/secLv.html'; });
+});
+$('#futureButton').on('click', '#secStage', () => {
+  window.location.href += 'bin/lib/tmp/secLv.html';
 });

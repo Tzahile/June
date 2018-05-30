@@ -22,5 +22,6 @@
             "htm",
             "html"
         ]
-    }
+    },
+    "liveServer.settings.port": 6500
 }
