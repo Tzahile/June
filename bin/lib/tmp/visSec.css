@@ -5,6 +5,13 @@
     z-index: 100;
 }
 
+input {
+    position: relative;
+    z-index: 100;
+    width: 20%;
+    align-content: flex-start;
+}
+
 #mainDiv {
     text-align: center;
 }

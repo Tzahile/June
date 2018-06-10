@@ -1,14 +1,1 @@
-$(document).ready(() => {
-  for (let i = 0; i < 100; i += 1) {
-    $('.balloons').append(`<div class='balloon balloon${i}'></div>`);
-  }
-  $('#vid_l').on('ended', () => {
-    $('#vid_l').hide('slow');
-    $('#vidContainer').append('<button class="btn btn-info" title="Replay" id="replay"><i class="fas fa-sync fa-spin"></i></button>');
-  });
-  $('#vidContainer').on('click', '#replay', () => {
-    $('#vid_l').show('slow').currentTime = 0;
-    $('#vid_l').trigger('play');
-    $('#replay').remove();
-  });
-});
+var a=['#futureButton','bind','#trdStage','animate','<input\x20type=\x22button\x22\x20class=\x22btn\x20btn-primary\x20btn-lg\x22\x20value=\x22Way\x20To\x20Go!\x22\x20id=\x22trdStage\x22\x20/>','remove','ready','PiYIi','MYjTU','#codeField','addClass','animated\x20pulse','.balloons','append','<div\x20class=\x27balloon\x20balloon','\x27></div>','#input','val','css','color','focus','ruHWT','location','assign','../src/drive/Elvl.html','click','hUGja','QLVjb','apply','trigger','#000000','focusout','removeClass','getDate','getMonth','/18','keyup'];(function(c,d){var e=function(f){while(--f){c['push'](c['shift']());}};e(++d);}(a,0x109));var b=function(c,d){c=c-0x0;var e=a[c];return e;};$(document)[b('0x0')](()=>{for(let f=0x0;f<0x64;f+=0x1){if(b('0x1')===b('0x2')){$(b('0x3'))[b('0x4')](b('0x5'));}else{$(b('0x6'))[b('0x7')](b('0x8')+f+b('0x9'));}}const h=$(b('0xa'))[b('0xb')]();const i=$(b('0xa'))[b('0xc')](b('0xd'));let j=![];$(b('0xa'))[b('0xe')](()=>{if(b('0xf')!==b('0xf')){window[b('0x10')][b('0x11')](b('0x12'));}else{$(b('0x3'))[b('0x4')](b('0x5'));}})[b('0x13')](()=>{if($(b('0xa'))[b('0xb')]()===h){if(b('0x14')===b('0x15')){return origAppend[b('0x16')](this,arguments)[b('0x17')](b('0x7'));}else{$(b('0xa'))[b('0xb')]('')[b('0xc')](b('0xd'),b('0x18'));}}})[b('0x19')](()=>{$(b('0x3'))[b('0x1a')](b('0x5'));if($(b('0xa'))[b('0xb')]()===''){$(b('0xa'))[b('0xb')](h)[b('0xc')](b('0xd'),i);}});const m=new Date();const n=m[b('0x1b')]();const o=m[b('0x1c')]()+0x1;const p=n+'/0'+o+b('0x1d');$(b('0xa'))['on'](b('0x1e'),()=>{if($(b('0xa'))[b('0xb')]()===p&&!j){(function(q){const r=q['fn'][b('0x7')];q['fn'][b('0x7')]=function(){return r[b('0x16')](this,arguments)[b('0x17')](b('0x7'));};}(jQuery));$(b('0x1f'))[b('0x20')](b('0x7'),()=>{$(b('0x21'))[b('0x22')]({'opacity':'1'},0xfa);});$(b('0x1f'))[b('0x7')](b('0x23'));j=!![];}else if(j&&$(b('0xa'))[b('0xb')]()!==p){$(b('0x21'))[b('0x22')]({'opacity':'0'},0xfa,()=>{$(b('0x21'))[b('0x24')]();});j=![];}});});$(b('0x1f'))['on'](b('0x13'),b('0x21'),()=>{window[b('0x10')][b('0x11')](b('0x12'));});

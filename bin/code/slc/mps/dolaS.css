@@ -1,0 +1,156 @@
+.middle{
+    text-align: center;
+}
+
+
+
+
+.down{
+    position: relative;
+    z-index: 10;
+    margin-top: 21%;
+}
+body {
+    background: #efdd8d;
+  }
+  .container {
+    position: absolute;
+    margin: auto;
+    top: -48%;
+    bottom: 0;
+    left: -150px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    transform: rotate(-50deg);
+  }
+  .party-hat {
+    position: absolute;
+    top: -35px;
+    left: 130px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid #e25178;
+    transform: rotate(45deg);
+  }
+  .polka {
+    position: absolute;
+    top: 16px;
+    left: -5px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: #fff;
+  }
+  .polka.two {
+    top: 26px;
+    left: 5px;
+  }
+  .polka.three {
+    top: 33px;
+    left: -15px;
+  }
+  .polka.four {
+    top: 41px;
+    left: -3px;
+  }
+  .polka.five {
+    top: 41px;
+    left: 12px;
+  }
+  .polka.six {
+    top: 49px;
+    left: -17px;
+  }
+  .trunk {
+    width: 200px;
+    height: 100px;
+    background: #efdd8d;
+    border-color: #777;
+    border-style: solid;
+    border-width: 100px 0 0 0;
+    border-radius: 100%;
+    position: relative;
+  }
+  .trunk:before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 0;
+    background: #efdd8d;
+    border: 28px solid #777;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+  }
+  .behind {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    width: 160px;
+    height: 180px;
+    background: #777;
+    border-radius: 100%;
+  }
+  .behind:before {
+    position: absolute;
+    top: 120px;
+    left: -10px;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #777;
+    border-radius: 5px;
+    transform: rotate(-40deg);
+  }
+  .behind:after {
+    position: absolute;
+    top: 150px;
+    left: 15px;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #777;
+    border-radius: 5px;
+    transform: rotate(-40deg);
+  }
+  .eye {
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: #fff;
+  }
+  .iris {
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #000;
+  }
+  .ear {
+    position: absolute;
+    left: 30px;
+    top: 5px;
+    width: 90px;
+    height: 70px;
+    background: #edbbb4;
+    border-radius: 100%;
+  }
+  .tail {
+    position: absolute;
+    top: 193px;
+    left: 190px;
+    width: 10px;
+    height: 30px;
+    background: #777;
+    border-radius: 10px;
+  }
+  
